@@ -1,0 +1,39 @@
+.topnav {
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.topnav a {
+  color: rgb(68, 68, 68);
+  height:  40px;
+  padding-top: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  float: left;
+  width: 20%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.topnav a:hover {
+  background-color: rgb(178, 201, 223);
+  color: black;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+    .topnav a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+      text-align: center;
+    }
+  }

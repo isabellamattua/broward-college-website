@@ -1,27 +1,37 @@
-import React from 'react';
+import React , {Component} from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Form from './components/Form';
+import Home from './components/Home'
+import Error from './components/Error';
+import Menu from './components/Menu';
+import Pathway from './components/Pathway';
+import Footer from './components/Footer'
 import logo from './logo.svg';
 import './App.css';
 //Test
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <BrowserRouter>
+          <div>
+            <Menu />
+            <Switch>
+              <Route path = "/" Component = {Home}exact />
+              <Route path="/form" component={Form}/>
+              <Route path="/Pathway" component={Pathway}/>
+              <Route component = {Error} />
+            </Switch>
+            <p> <br /> <br /> <br />Both the Student and Test page does not work.  </p>
+          </div>
+        </BrowserRouter>
+
+        <Footer />
+      </div>
+      
+    );
+  }
 }
 
 export default App;
