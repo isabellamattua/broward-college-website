@@ -5,9 +5,9 @@ import Home from './components/Home'
 import Error from './components/Error';
 import Menu from './components/Menu';
 import Pathway from './components/Pathway';
-import Footer from './components/Footer'
-import logo from './logo.svg';
-import './App.css';
+import Footer from './components/Footer';
+
+import './App.scss';
 //Test
 
 class App extends Component {
@@ -15,18 +15,14 @@ class App extends Component {
     return (
       <div>
         <BrowserRouter>
-          <div>
             <Menu />
             <Switch>
-              <Route path = "/" Component = {Home}exact />
+              <Route path = "/Home" component = {Home} />
               <Route path="/form" component={Form}/>
               <Route path="/Pathway" component={Pathway}/>
               <Route component = {Error} />
             </Switch>
-            <p> <br /> <br /> <br />Both the Student and Test page does not work.  </p>
-          </div>
         </BrowserRouter>
-
         <Footer />
       </div>
       
