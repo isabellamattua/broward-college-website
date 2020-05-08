@@ -1,0 +1,68 @@
+.imageCarousel{
+    width: 90%;
+    display: block;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+.cardStyle{
+    display: flex;
+    width: 85%;
+    font-size: 20px;
+    margin-left : auto;
+    margin-right: auto;
+  
+
+}
+
+
+.cardTitleStyle{
+    font-family: 'Rockwell';
+    font-size: 30px;
+    color: rgb(67,74,174);
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+.picture{
+    width: 100%;
+}
+
+.body{
+    background-color: rgb(233,251,255);
+}
+
+.buttonB{
+    margin-left: 75px;
+    width: 40%;
+    margin-left : auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.buttonBu{
+    margin-left: 75px;
+    width: 45%;
+    margin-left : auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.button {
+    background-color: rgb(67,74,174);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+
+    cursor: pointer;
+  }
