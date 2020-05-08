@@ -6,7 +6,8 @@ import Error from './components/Error';
 import Menu from './components/Menu';
 import Pathway from './components/Pathway';
 import Footer from './components/Footer';
-
+import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 //Test
 
