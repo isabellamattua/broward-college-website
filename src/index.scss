@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family:'Rockwell';
+  src: local('Rockwell') , url(./fonts/rockb.ttf) format('truetype');
+}
+
+@font-face {
+  font-family:'Klavika';
+  src: local('Klavika') , url(./fonts/klavikaboldwebfont.ttf) format('truetype');
+}

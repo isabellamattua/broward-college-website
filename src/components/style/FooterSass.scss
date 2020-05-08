@@ -1,9 +1,26 @@
 .footer {
     position: absolute;
+    justify-content:space-evenly;
+    display: flex;
     right: 0;
-    bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #efefef;
+    background-color: rgb(255,255,255);
     text-align: center;
   }
+
+  .title{
+    font-family: 'Rockwell';
+    font-size: 30px;
+    color: rgb(67,74,174);
+    padding-bottom: 8px;
+    text-align: center;
+  }
+
+
+.pictureF{
+    width: 8%;
+    position: center;
+}
+
+
